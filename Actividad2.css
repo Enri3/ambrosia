@@ -1,0 +1,64 @@
+.menu{
+	width: 25%;
+	text-align: left;
+}
+
+.row {
+  display: flex;
+
+}
+
+a:link {
+	font-weight: bold;
+  	color: black;
+  	font-size: x-large;
+  	/*background-color: transparent;
+  	//text-decoration: none;*/
+	
+}
+a:link:hover {
+ 	color: black;
+ 	text-decoration: none;
+ 	/*font-size: x-large;*/
+} /* CSS link hover (green) */
+
+
+.footer{
+	/*height: 50%;*/
+	/*#ad8552#b18b5b*/
+	background-color: #bd9c74;
+	color:black;
+	text-align: center;
+	font-size: 250%;
+	font-family: "Garamond", Times, serif;
+}
+
+.ambrosia{
+	/*color: #7d4a17;*/
+	opacity: 25%;
+	font-weight: bold;
+}
+
+.recomendados{
+	font-family: "Garamond", serif, monospace;
+	background-color:  #e1c09d;
+	/*#d4b38e*/
+	text-align: center;
+	opacity: 90%;
+}
+
+.imagen{
+  width: 33.3%;
+  text-align: center;
+}
+
+.imagensola{
+    width: 4%;
+}
+
+.v-line{
+ border-left: thick solid #737373;
+ height:19%;
+ left: 50%;
+ position: absolute;
+}
