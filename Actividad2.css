@@ -50,6 +50,7 @@ a:link:hover {
 .imagen{
   width: 33.3%;
   text-align: center;
+  border-radius: 10px;
 }
 
 .imagensola{
