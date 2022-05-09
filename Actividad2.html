@@ -4,7 +4,7 @@
 	<title>Ambrosia</title>
 	<link rel="stylesheet" href="Actividad2.css">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Koulen&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
@@ -12,14 +12,18 @@
 <body style="background-color: #ffdebe">
 	<h1 style="font-family: 'Koulen', cursive;">Probandaaao ñ</h1>
 	<h1 style="font-family: 'Oleo Script Swash Caps', cursive;">ambrosia</h1>
-	<div>
-  		<video width=100% autoplay muted loop>
-  			<source src="ambrosia1.mp4" type="video/mp4">
-  		</video>
-  		<input type="text" style="background-color: #bd9c74;"> </input>
+  	<video width=100% autoplay muted loop>
+  		<source src="ambrosia1.mp4" type="video/mp4">
+  	</video>
+	<div class="w3-bar">
+		<i class= "w3-padding  fa fa-search w3-bar-item w3-button w3-mobile w3-xlarge" style="background-color: #bd9c74; height: 45px; width: 5%;"></i>
+	  	<input type="text" class="w3-bar-item" placeholder="Barra de busqueda" style="background-color: #bd9c74; width: 65%; height: 45px;"></input>
+	  	<a href="#" class="w3-bar-item w3-button w3-mobile" style="width:10%; height: 45px; background-color: #bd9c74;">Registrate</a>
+	  	<a href="#" class="w3-bar-item w3-button w3-mobile" style="width:10%; height: 45px; background-color: #bd9c74;">Inicia secion</a>
+	  	<a href="#" class="w3-bar-item w3-button w3-mobile" style="width:10%; height: 45px; background-color: #bd9c74;">Subscribite</a>
 	</div>
-	<div class="w3-container row">
-		<div class="w3-container menu">
+	<div class="container-general">
+		<div class="w3-card w3-border-0 menu" style="box-shadow: 0 0;">
 			<h1><b>TIPOS DE COMIDA</b></h1>
 			<hr width= 100% color= #737373>
 			<a href="url" target="_blank">Entradas</a>
@@ -36,7 +40,7 @@
 			<br>
 			<a href="url">Colacion</a>
 		</div>
-		<div class="w3-container menu">
+		<div class="w3-card menu" style="box-shadow: 0 0;">
 			<h1><b>TIPOS DE MENU</b></h1>
 			<hr width= 100% color= #737373>
 			<a href="url">Sin tacc</a>
@@ -50,7 +54,7 @@
 			<a href="url">Deportistas</a>
 			<br>
 		</div>
-		<div class="w3-container menu">
+		<div class="w3-card menu" style="box-shadow: 0 0;">
 			<h1><b>DIFICULTAD</b></h1>
 			<hr width= 100% color= #737373>
 			<a href="url">Facil</a>
@@ -60,7 +64,7 @@
 			<a href="url">Complejo</a>
 			<br>
 		</div>
-		<div class="w3-container menu">
+		<div class="w3-card menu" style="box-shadow: 0 0;">
 			<h1><b>MAS VISITADOS</b></h1>
 			<hr width= 100% color= #737373>
 			<a href="url">Milanesas con papas</a>
@@ -76,8 +80,9 @@
 			<a href="url">Spaghetti con Salsa de Champignones</a>
 			<br>
 		</div>
-
-		<div class="w3-container menu">
+		</div>
+		<div class="container-general" style="justify-content: left;">
+		<div class="w3-card menu" style="box-shadow: 0 0;">
 			<br><br><br>
 			<h1><b>DURACION</b></h1>
 			<hr width= 100% color= #737373>
@@ -92,7 +97,7 @@
 			<br>
 			<br>
 		</div>
-		<div class="w3-container menu">
+		<div class="w3-card menu" style="box-shadow: 0 0;">
 			<br><br><br>
 			<h1><b>COCCION</b></h1>
 			<hr width= 100% color= #737373>
@@ -107,7 +112,7 @@
 			<br>
 			<br>
 		</div>
-		<div class="w3-container menu">
+		<div class="w3-card menu" style="box-shadow: 0 0;">
 			<br><br><br>
 			<h1><b>ORIGEN</b></h1>
 			<hr width= 100% color= #737373>
@@ -128,41 +133,43 @@
 <div class="w3-container recomendados" style="margin-top: 3%">
 		<h1 style="margin-top: 1%;margin-bottom: 1%"><b>- recomendados -</b></h1>
 	</div>
-<div class="w3-container w3-center container-general" style="margin: auto; width: 85%;">
-	<div class="w3-container">
-        <div class="w3-container imagen w3-card w3-round" style="margin-top: 3%; margin-bottom: 2%; width: 20%;">
+<div class="w3-container container-general">
+	
+        <div class="imagen carta w3-card" style="margin-top: 3%; margin-bottom: 2%; width: 20%;">
             <a href="mila-con-papas.html" style="width: 33%;"><img class="imagen" src="milanesa_con_papas.jpeg" alt="Milanesa con Papas"></a>
             <h2>Milanesa con Papas</h2>
             <p>descripcion del plato</p>
         </div>
-        <div class="w3-container imagen w3-card w3-round" style="margin-top: 3%; margin-bottom: 2%; width: 20%;">
+        <div class="imagen carta w3-card" style="margin-top: 3%; margin-bottom: 2%; width: 20%;">
             <a href="fideos-al-pesto.html"><img class="imagen" src="fideos_con_pesto.jpg" alt="Fideos al Pesto"></a>
             <h2>Fideos al Pesto</h2>
             <p>descripcion del plato</p>
         </div>
-        <div class="w3-container imagen w3-card w3-round" style="margin-top: 3%; margin-bottom: 2%; width: 20%;">
+        <div class="imagen carta w3-card" style="margin-top: 3%; margin-bottom: 2%; width: 20%;">
             <a href="empanadas.html"><img class="imagen" src="empanadas3.jpg" alt="Empanadas"></a>
             <h2>Empanadas</h2>
             <p>descripcion del plato</p>
         </div>
-    </div>
-    <div class="w3-container w3-center" style="margin: auto">
-        <div class="w3-container imagen w3-card w3-round" style="margin-top: 3%; margin-bottom: 2%; width: 20%;">
+    
+    
+        <div class="imagen carta w3-card" style="margin-top: 3%; margin-bottom: 2%; width: 20%;">
             <a href="pizza.html"><img class="imagen" src="pizza.jpg" alt="Pizza"></a>
             <h2>Pizza</h2>
             <p>descripcion del plato</p>
         </div>
-        <div class="w3-container imagen w3-card w3-round" style="margin-top: 3%; margin-bottom: 2%; width: 20%;">
+        <div class="imagen carta w3-card" style="margin-top: 3%; margin-bottom: 2%; width: 20%;">
             <a href="gnocchi-de-papa.html"><img class="imagen" src="gnocchis.jpg" alt="gnocchis de Papa"></a>
             <h2>gnocchis de Papa</h2>
             <p>descripcion del plato</p>
         </div>
-        <div class="w3-container imagen w3-card w3-round" style="margin-top: 3%; margin-bottom: 2%; width: 20%;">
+        <div class="imagen carta w3-card" style="margin-top: 3%; margin-bottom: 2%; width: 20%;">
             <a href="fideos-hongos.html"><img class="imagen" src="fideos_hongos.jpg" alt="Spaghetti con Salsa de Champiñones"></a>
             <h2>Spaghetti con Salsa de Champignones</h2>
             <p>descripcion del plato</p>
         </div>
-    </div>
+
+	</div>
+    
 </div>
 <div class="w3-container footer" >
 	<b><p style="font-family: monospace; opacity: 80%; margin-top: 3%">como contactarnos</p></b>
