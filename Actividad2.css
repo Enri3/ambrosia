@@ -1,13 +1,17 @@
+.barra-menu{
+	background-color: #bd9c74;
+	height: 15%;
+}
+
+.barra-menu-buttom{
+	width:15%;
+}
+
 .container-general{
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-}
-
-.carta{
-	height: 30vh;
-	margin-right: 5vw;
 }
 
 .menu{
@@ -16,8 +20,6 @@
 	text-align: left;
 	margin: 2%;
 }
-
-
 
 a:link {
 	font-weight: bold;
@@ -56,12 +58,22 @@ a:link:hover {
 	/*#d4b38e*/
 	text-align: center;
 	opacity: 90%;
+	margin-top: 3%;
 }
 
 .imagen{
   width:50%;
   text-align: center;
   border-radius: 10px;
+  margin-top: 10%;
+}
+
+.carta{
+	width: 50%;
+  text-align: center;
+  border-radius: 10px;
+	margin-right: 5vw;
+	padding: 15px;
 }
 
 .imagensola{
