@@ -65,11 +65,14 @@
 }
 
 .carta{
-	width: 50%;
+	width: 20%;
   text-align: center;
   border-radius: 10px;
-	margin-right: 5vw;
 	padding: 15px;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 3%;
+	margin-bottom: 2%;
 }
 
 .imagensola{
@@ -78,7 +81,7 @@
 
 .v-line{
  border-left: thick solid #737373;
- height:19%;
+ height:50px;
  left: 50%;
  position: absolute;
 }
