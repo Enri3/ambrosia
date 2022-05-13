@@ -82,3 +82,8 @@
  left: 50%;
  position: absolute;
 }
+
+.linea{
+	width: 100%;
+	color: #737373;
+}
