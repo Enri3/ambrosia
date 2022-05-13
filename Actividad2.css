@@ -4,7 +4,11 @@
 }
 
 .barra-menu-buttom{
-	width:15%;
+	width: 15%;
+}
+
+.pruebajsadd{
+	background-color: red;
 }
 
 .container-general{
@@ -16,12 +20,11 @@
 
 .menu{
 	width: 20%;
-	height: 19;
 	text-align: left;
 	margin: 2%;
 }
 
-a:link {
+.links:link {
 	font-weight: bold;
   color: black;
   font-size: x-large;
@@ -29,16 +32,11 @@ a:link {
   text-decoration: none;
 	
 }
-a:link:hover {
- 	color: black;
+.links:hover {
  	text-decoration: none;
- 	/*font-size: x-large;*/
-} /* CSS link hover (green) */
-
+}
 
 .footer{
-	/*height: 50%;*/
-	/*#ad8552#b18b5b*/
 	background-color: #bd9c74;
 	color:black;
 	text-align: center;
@@ -47,7 +45,6 @@ a:link:hover {
 }
 
 .ambrosia{
-	/*color: #7d4a17;*/
 	opacity: 25%;
 	font-weight: bold;
 }
@@ -55,7 +52,6 @@ a:link:hover {
 .recomendados{
 	font-family: "Garamond", serif, monospace;
 	background-color:  #e1c09d;
-	/*#d4b38e*/
 	text-align: center;
 	opacity: 90%;
 	margin-top: 3%;
