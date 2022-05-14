@@ -95,3 +95,10 @@
 .titulo{
 	word-wrap: break-word;
 }
+
+.coment-buttom{
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
