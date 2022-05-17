@@ -43,7 +43,7 @@
 }
 
 .footer{
-	background-color: #bd9c74;
+	background-color: #BD9C74;
 	color:black;
 	text-align: center;
 	font-size: 250%;
@@ -101,4 +101,16 @@
 	border-radius: 5px;
 	margin-bottom: 1%;
 	margin-top: 1%;
+}
+
+.log-box{
+	margin-left: 40%;
+	width: 20%;
+  border-radius: 10px;
+	background-color: #e5c4a0;
+}
+
+.log-item{
+	text-align: left;
+	margin-left: 5%;
 }
