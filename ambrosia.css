@@ -108,9 +108,20 @@
 	width: 20%;
   border-radius: 10px;
 	background-color: #e5c4a0;
+	text-align: center;
 }
 
 .log-item{
-	text-align: left;
-	margin-left: 5%;
+	margin: 2%;
+}
+
+.rc:link {
+  background-color: transparent;
+  text-decoration: none;
+	word-wrap: break-word;
+ 	color: black;
+}
+
+.rc:hover {
+ 	text-decoration: none;
 }

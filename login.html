@@ -12,24 +12,27 @@
 
 	<form>
   		<div class="log-box w3-mobile">
-    		<h1 style="text-align: center; margin-top: 10%;">Registrate</h1>
-			<p>Complete el siguiente formulario para registrarse.</p>
+
+    		<h1>Iniciar sesión</h1>
+
     		<hr class="linea">
-    		<br>
-    		<label for="email" class="box-item"><b>Email</b></label>
-    		<input type="text" class="box-item" placeholder="Enter Email" name="email" required>
-    		<br><br>
-    		<label for="psw"class="box-item"><b>Password</b></label>
-    		<input type="password" class="box-item" placeholder="Enter Password" name="psw" required>
-    		<br><br>
-    		<label for="psw-repeat" class="box-item"><b>Repeat Password</b></label>
-    		<input type="password" class="box-item" placeholder="Repeat Password" name="psw-repeat" required>
-    		<br><br>
-    		<label>
-     		<input type="checkbox" class="box-item" checked="checked" name="remember" style="margin-bottom:15px"> Recordame
-    		</label>
-    		<br>
-   			<button type="submit" style="margin-bottom: 1%;">Registrar</button>
+
+    		<div class="log-item">
+    		<input type="text" placeholder="Nombre de usuario" required>
+    		</div>
+
+    		<div class="log-item">
+    		<input type="password" placeholder="Contraseña" required>
+    		</div>
+
+    		<div class="log-item">
+
+    		<p>Si no recuerda su contraseña, <a class="rc" href="#">reestablécala</a></p>
+
+     		<input type="checkbox"> Recordame
+    		</div>
+
+   			<button type="submit" style="margin-bottom: 2%;">Iniciar sesión</button>
   	</div>
 </form>
 
