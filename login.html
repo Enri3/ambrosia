@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Ambrosia</title>
 	<link rel="stylesheet" href="ambrosia.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<title>ambrosia</title>
 </head>
 <body style="margin: 0; background-color: #ffdebe">
 	<div class="w3-panel" style="text-align: center;">
-		<h1 style="font-size: 500%; opacity: 25%; margin: 2%; ">ambrosia</h2>
+		<a href="index.html" class="rc"><h1 style="font-size: 500%; color: black; opacity: 25%; margin: 2%; ">ambrosia</h1></a>
 	</div>
 
 	<form>
@@ -15,36 +15,27 @@
 
     		<h1>Iniciar sesión</h1>
 
-    		<hr style="margin-bottom: 12%;" class="linea">
+    		<p style="color: #5A4E41;">¿No tienes cuneta? <a class="rc" style="color: #5A4E41;" href="registro.html">Créate una nueva.</a></p>
+
+    		<hr style="margin-bottom: 5%;" class="linea">
 
     		<div class="log-item">
-    		<input type="text" placeholder="Nombre de usuario" required>
+    		<input class="inputrls" type="text" placeholder="Nombre de usuario" required>
     		</div>
 
     		<div class="log-item">
-    		<input type="password" placeholder="Contraseña" required>
+    		<input class="inputrls" type="password" placeholder="Contraseña" required>
     		</div>
 
     		<div class="log-item">
-
-    		<p>Si no recuerda su contraseña, <a class="rc" href="#">reestablécala</a></p>
 
      		<input type="checkbox"> Recordame
+
+    		<p style="color: #5A4E41;">Si no recuerda su contraseña, <a class="rc" style="color: #5A4E41;" href="#">reestablécala.</a></p>
     		</div>
 
-   			<button type="submit" style="margin-bottom: 2%;">Iniciar sesión</button>
-  	</div>
-</form>
-
-	<div class="w3-container footer">
-		<b><p style="font-family: monospace; opacity: 80%; margin-top: 3%; margin: 2%;">como contactarnos</p></b>
-		<p style="opacity:65%; margin: 2%;"><img src="fotos/email2.jpg" alt="" width="3%;"></img> <b>contacto.ambrosia@gmail.com</b> </p>
-		<p style="opacity:65%; margin: 2%;">
-		<img src="fotos/instagram3.jpg" alt="" style="width: 3%;"></img>
-		<img src="fotos/facebook2.jpg" alt="" style="width: 3%;"></img>
-		<b>@redes.ambrosia</b>
-		</p>
-		<p style="opacity: 25%; font-weight: bold; margin: 2%;">ambrosia</p>
-	</div>
+   			<button id="subit" type="submit">Iniciar sesión</button>
+  		</div>
+	</form>
 </body>
 </html>

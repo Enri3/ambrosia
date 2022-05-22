@@ -1,60 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Ambrosia</title>
 	<link rel="stylesheet" href="ambrosia.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<title>ambrosia</title>
 </head>
 <body style="margin: 0; background-color: #ffdebe">
 	<div class="w3-panel" style="text-align: center;">
-		<h1 style="font-size: 500%; opacity: 25%; margin: 2%; ">ambrosia</h2>
+		<a href="index.html" class="rc"><h1 style="font-size: 500%; color: black; opacity: 25%; margin: 2%; ">ambrosia</h1></a>
 	</div>
-	<form name="registro" action="accederbase.php">
+	<form id="registro" name="registro" action="accederbase.php">
   		<div class="log-box w3-mobile">
 
     		<h1>Registrate</h1>
 
-			<p>Complete el siguiente formulario para registrarse.</p>
+			<p style="color: #5A4E41;">Complete el siguiente formulario para registrarse.</p>
 
-    		<hr style="margin-bottom: 12%;" class="linea">
+    		<hr style="margin-bottom: 5%;" class="linea">
 
     		<div class="log-item">
-    		<input nombre="nombre" type="text" placeholder="Nombre" required>
+    		<input class="inputrls" nombre="nombre" type="text" placeholder="Nombre" required>
 			</div>
 
     		<div class="log-item">
-    		<input nombre="apellido" type="text" placeholder="Apellido" required>
+    		<input class="inputrls" nombre="apellido" type="text" placeholder="Apellido" required>
     		</div>
 
     		<div class="log-item">
-    		<input nombre="user-name" type="text" placeholder="Nombre de usuario" required>
+    		<input class="inputrls" nombre="user-name" type="text" placeholder="Nombre de usuario" required>
     		</div>
 
     		<div class="log-item">
-    		<input nombre="email" type="email" placeholder="Email" required>
+    		<input class="inputrls" nombre="email" type="email" placeholder="Email" required>
     		</div>
 
     		<div class="log-item">
-    		<input nombre="contraseña" type="password" placeholder="Contraseña" required>
+    		<input class="inputrls" nombre="contraseña" type="password" placeholder="Contraseña" required>
     		</div>
 
     		<div class="log-item">
-    		<input nombre="contraseñack" type="password" placeholder="Repetir contraseña" required>
+    		<input class="inputrls" nombre="contraseñack" type="password" placeholder="Repetir contraseña" required>
     		</div>
 
-   			<button type="submit" style="margin-bottom: 2%;">Registrar</button>
+   			<button id="subit" type="submit">Registrar</button>
   		</div>
 	</form>
-
-	<div class="w3-container footer">
-		<b><p style="font-family: monospace; opacity: 80%; margin-top: 3%; margin: 2%;">como contactarnos</p></b>
-		<p style="opacity:65%; margin: 2%;"><img src="fotos/email2.jpg" alt="" width="3%;"></img> <b>contacto.ambrosia@gmail.com</b> </p>
-		<p style="opacity:65%; margin: 2%;">
-		<img src="fotos/instagram3.jpg" alt="" style="width: 3%;"></img>
-		<img src="fotos/facebook2.jpg" alt="" style="width: 3%;"></img>
-		<b>@redes.ambrosia</b>
-		</p>
-		<p style="opacity: 25%; font-weight: bold; margin: 2%;">ambrosia</p>
-	</div>
 </body>
 </html>

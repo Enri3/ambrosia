@@ -126,3 +126,24 @@
 .rc:hover {
  	text-decoration: none;
 }
+
+.inputrls{
+	width: 90%;
+	background-color: #ffdebe;
+	border-color: transparent;
+}
+
+.inputrls:hover {
+	background-color: #F0D3B6;
+}
+
+#subit{
+	margin-bottom: 5%;
+	background-color: #BD9C74;
+	width: 90%;
+	border-color: transparent;
+}
+
+#subit:hover{
+	background-color: #AA8D6A;
+}
