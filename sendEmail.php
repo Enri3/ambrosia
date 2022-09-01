@@ -1,19 +1,22 @@
 <?php
 
-$to = $emailUsuario;
+$to      = $userEmail;
 
 $subject = 'Registro | Verificación'; 
 $message = '
  
-¡Bienvenid@ a Ambrosía!
-El último paso es la verificación de tu cuenta. Solo tenes que hacer click en el siguiente link:
+¡Muchas gracias por registrarte!
 
+Tu cuenta fue creada con éxito. Solo tenés que activarla.
+Para ello, tenés que hacer click en el siguiente link.
+
+Link de activación de la cuenta:
  
-https://agssoft.ar/DOS/check.php?user='.$nombreUsuario.'&email='.$emailUsuario.'
+https://agssoft.ar/NUEVE/accounts/check.php?user='.$userEmail.'&hash='.$hash.'
  
 ';
                      
-$headers = 'From:noreply@Ambrosía.com' . "\r\n";
+$headers = 'From:noreply@qatar2022.com' . "\r\n";
 mail($to, $subject, $message, $headers);
 
 

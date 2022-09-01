@@ -1,8 +1,8 @@
 <?php
-include "credenciales.inc";
+include "variables.inc";
 
 // Create connection
-$conn = new mysqli($HOST, $USER, $PASS, $BASE);
+$conn = new mysqli($host, $user, $pass, $base);
 
 // Check connection
 if ($conn->connect_error) {
